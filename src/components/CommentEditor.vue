@@ -21,7 +21,7 @@
           v-model="comment.content"
           class="commentbody"
         ></textarea>
-        <label class="input-label">{{options.comment_content_placeholder || 'Commenting...'}}</label>
+        <label class="input-label">{{options.comment_content_placeholder || '留条回复吧~'}}</label>
       </div>
       <div class="comment-preview markdown-body" v-else v-html="renderedContent"></div>
       <!-- 上传图片预览 -->
@@ -60,6 +60,15 @@
           id="email"
           v-model="comment.email"
           @blurInput="pullInfo"
+        />
+        <PopupInput
+          class="cmt-popup"
+          popupStyle="margin-left: -55px;width: 110px;"
+          popupText="禁止小广告!!"
+          inputType="text"
+          placeholder="个人站点"
+          id="url"
+          v-model="comment.authorUrl"
         />
       </div>
       <ul class="comment-buttons">
