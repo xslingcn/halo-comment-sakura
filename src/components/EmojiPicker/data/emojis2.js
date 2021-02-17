@@ -109,4 +109,4 @@ let tiebaEmoji = [
     new Emoji("Grievance", "Grievance", "tieba"),
 ]
 
-export default [...bilibiliEmoji, ...menheraEmoji, ...tiebaEmoji]
+export default [...menheraEmoji, ...tiebaEmoji]
