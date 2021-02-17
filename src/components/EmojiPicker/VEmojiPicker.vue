@@ -30,7 +30,7 @@ export default {
   },
   data: () => ({
     mapEmojis: {},
-    category: 'bilibili'
+    category: 'menhera'
   }),
   created() {
     this.mapperData(this.pack)

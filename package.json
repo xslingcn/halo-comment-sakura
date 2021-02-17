@@ -1,6 +1,6 @@
 {
   "name": "halo-comment-sakura",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -33,16 +33,16 @@
     "> 1%",
     "last 2 versions"
   ],
-  "description": "<h1 align=\"center\"><a href=\"https://github.com/LIlGG\" target=\"_blank\">halo-comment-sakura</a></h1> > 适用于 halo-theme-sakura 的评论组件。",
+  "description": "<h1 align=\"center\"><a href=\"https://github.com/xslingcn\" target=\"_blank\">halo-comment-sakura</a></h1> > 适用于 halo-theme-sakura 的评论组件。",
   "main": "babel.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LIlGG/halo-comment-sakura.git"
+    "url": "git+https://github.com/xslingcn/halo-comment-sakura.git"
   },
-  "author": "LIlGG",
+  "author": "xslingcn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LIlGG/halo-comment-sakura/issues"
+    "url": "https://github.com/xslingcn/halo-comment-sakura/issues"
   },
-  "homepage": "https://github.com/LIlGG/halo-comment-sakura#readme"
+  "homepage": "https://github.com/xslingcn/halo-comment-sakura#readme"
 }
