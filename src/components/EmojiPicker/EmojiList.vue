@@ -11,14 +11,12 @@
 </template>
 
 <script>
-import BilibiliEmoji from './BilibiliEmoji'
 import MenheraEmoji from './MenheraEmoji'
 import TiebaEmoji from './TiebaEmoji'
 
 export default {
   name: 'EmojiList',
   components: {
-    BilibiliEmoji,
     MenheraEmoji,
     TiebaEmoji
   },
@@ -45,9 +43,7 @@ export default {
       return this.category + "Emoji";
     },
     type() {
-      if(this.category === "bilibili") {
-        return "Math";
-      } else if(this.category === "tieba") {
+      if(this.category === "tieba") {
         return "BBCode"
       }
       return "";
