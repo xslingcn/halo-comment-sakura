@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'MenheraEmoji',
+    name: 'adnmbEmoji',
     props: {
         data: { 
             type: Object 

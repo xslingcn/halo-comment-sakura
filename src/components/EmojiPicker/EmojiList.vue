@@ -11,18 +11,18 @@
 </template>
 
 <script>
-import MenheraEmoji from './MenheraEmoji'
+import adnmbEmoji from './adnmbEmoji'
 import TiebaEmoji from './TiebaEmoji'
 
 export default {
   name: 'EmojiList',
   components: {
-    MenheraEmoji,
+    adnmbEmoji,
     TiebaEmoji
   },
   data: () => ({
     categories: [
-      { name: 'menhera', title: '( ﾟ∀。)' },
+      { name: 'adnmb', title: '( ﾟ∀。)' },
       { name: 'tieba', title: 'Tieba' },
     ]
   }),

@@ -21,7 +21,7 @@ export default {
   name: 'Categories',
   data: () => ({
     categories: [
-      { name: 'menhera', title: '( ﾟ∀。)' },
+      { name: 'adnmb', title: '( ﾟ∀。)' },
       { name: 'tieba', title: 'Tieba' },
     ],
     active: 0

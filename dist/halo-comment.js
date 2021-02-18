@@ -2883,19 +2883,19 @@ var marked_default = /*#__PURE__*/__webpack_require__.n(marked);
 var md5 = __webpack_require__("6821");
 var md5_default = /*#__PURE__*/__webpack_require__.n(md5);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3d3a0c90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/VEmojiPicker.vue?vue&type=template&id=6108db98&
-var VEmojiPickervue_type_template_id_6108db98_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"emotion-box no-select"},[(_vm.showCategory)?_c('Categories',{on:{"select":function($event){return _vm.onChangeCategory($event)}}}):_vm._e(),_c('keep-alive',[_c('EmojiList',{attrs:{"data":_vm.emojis,"category":_vm.category},on:{"select":function($event){return _vm.onSelectEmoji(arguments)}}})],1)],1)}
-var VEmojiPickervue_type_template_id_6108db98_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3d3a0c90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/VEmojiPicker.vue?vue&type=template&id=622562f6&
+var VEmojiPickervue_type_template_id_622562f6_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"emotion-box no-select"},[(_vm.showCategory)?_c('Categories',{on:{"select":function($event){return _vm.onChangeCategory($event)}}}):_vm._e(),_c('keep-alive',[_c('EmojiList',{attrs:{"data":_vm.emojis,"category":_vm.category},on:{"select":function($event){return _vm.onSelectEmoji(arguments)}}})],1)],1)}
+var VEmojiPickervue_type_template_id_622562f6_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/EmojiPicker/VEmojiPicker.vue?vue&type=template&id=6108db98&
+// CONCATENATED MODULE: ./src/components/EmojiPicker/VEmojiPicker.vue?vue&type=template&id=622562f6&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3d3a0c90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/Categories.vue?vue&type=template&id=19b862ae&
-var Categoriesvue_type_template_id_19b862ae_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('transition',{attrs:{"name":"category"}},[_c('table',{staticClass:"motion-switcher-table"},[_c('tbody',[_c('tr',_vm._l((_vm.categories),function(categorie,index){return _c('th',{key:index,class:['category', categorie.name + '-box', { active: index === _vm.active }, {'on-hover': index === _vm.active}],on:{"click":function($event){return _vm.onSelect(index)}}},[_vm._v(_vm._s(categorie.title))])}),0)])])])}
-var Categoriesvue_type_template_id_19b862ae_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3d3a0c90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/Categories.vue?vue&type=template&id=13edb86c&
+var Categoriesvue_type_template_id_13edb86c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('transition',{attrs:{"name":"category"}},[_c('table',{staticClass:"motion-switcher-table"},[_c('tbody',[_c('tr',_vm._l((_vm.categories),function(categorie,index){return _c('th',{key:index,class:['category', categorie.name + '-box', { active: index === _vm.active }, {'on-hover': index === _vm.active}],on:{"click":function($event){return _vm.onSelect(index)}}},[_vm._v(_vm._s(categorie.title))])}),0)])])])}
+var Categoriesvue_type_template_id_13edb86c_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/EmojiPicker/Categories.vue?vue&type=template&id=19b862ae&
+// CONCATENATED MODULE: ./src/components/EmojiPicker/Categories.vue?vue&type=template&id=13edb86c&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/Categories.vue?vue&type=script&lang=js&
 //
@@ -2919,7 +2919,7 @@ var Categoriesvue_type_template_id_19b862ae_staticRenderFns = []
   name: 'Categories',
   data: () => ({
     categories: [{
-      name: 'menhera',
+      name: 'adnmb',
       title: '( ﾟ∀。)'
     }, {
       name: 'tieba',
@@ -2951,8 +2951,8 @@ var componentNormalizer = __webpack_require__("2877");
 
 var component = Object(componentNormalizer["a" /* default */])(
   EmojiPicker_Categoriesvue_type_script_lang_js_,
-  Categoriesvue_type_template_id_19b862ae_render,
-  Categoriesvue_type_template_id_19b862ae_staticRenderFns,
+  Categoriesvue_type_template_id_13edb86c_render,
+  Categoriesvue_type_template_id_13edb86c_staticRenderFns,
   false,
   null,
   null,
@@ -2961,38 +2961,38 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Categories = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3d3a0c90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/EmojiList.vue?vue&type=template&id=500fb8e4&
-var EmojiListvue_type_template_id_500fb8e4_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"motion-container",class:_vm.categoryClass,attrs:{"id":"container-emoji"}},_vm._l((_vm.data[_vm.category]),function(emoji,index){return _c(_vm.categoryEmoji,{key:index,tag:"component",attrs:{"data":emoji},nativeOn:{"click":function($event){return _vm.onSelect(emoji, _vm.type)}}})}),1)}
-var EmojiListvue_type_template_id_500fb8e4_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3d3a0c90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/EmojiList.vue?vue&type=template&id=3cd0e100&
+var EmojiListvue_type_template_id_3cd0e100_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"motion-container",class:_vm.categoryClass,attrs:{"id":"container-emoji"}},_vm._l((_vm.data[_vm.category]),function(emoji,index){return _c(_vm.categoryEmoji,{key:index,tag:"component",attrs:{"data":emoji},nativeOn:{"click":function($event){return _vm.onSelect(emoji, _vm.type)}}})}),1)}
+var EmojiListvue_type_template_id_3cd0e100_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/EmojiPicker/EmojiList.vue?vue&type=template&id=500fb8e4&
+// CONCATENATED MODULE: ./src/components/EmojiPicker/EmojiList.vue?vue&type=template&id=3cd0e100&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3d3a0c90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/MenheraEmoji.vue?vue&type=template&id=3fbbeddf&
-var MenheraEmojivue_type_template_id_3fbbeddf_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{staticClass:"emoji-item"},[_vm._v(" "+_vm._s(_vm.data.name)+" ")])}
-var MenheraEmojivue_type_template_id_3fbbeddf_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3d3a0c90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/adnmbEmoji.vue?vue&type=template&id=66938a4a&
+var adnmbEmojivue_type_template_id_66938a4a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{staticClass:"emoji-item"},[_vm._v(" "+_vm._s(_vm.data.name)+" ")])}
+var adnmbEmojivue_type_template_id_66938a4a_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/EmojiPicker/MenheraEmoji.vue?vue&type=template&id=3fbbeddf&
+// CONCATENATED MODULE: ./src/components/EmojiPicker/adnmbEmoji.vue?vue&type=template&id=66938a4a&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/MenheraEmoji.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/adnmbEmoji.vue?vue&type=script&lang=js&
 //
 //
 //
 //
 //
 //
-/* harmony default export */ var MenheraEmojivue_type_script_lang_js_ = ({
-  name: 'MenheraEmoji',
+/* harmony default export */ var adnmbEmojivue_type_script_lang_js_ = ({
+  name: 'adnmbEmoji',
   props: {
     data: {
       type: Object
     }
   }
 });
-// CONCATENATED MODULE: ./src/components/EmojiPicker/MenheraEmoji.vue?vue&type=script&lang=js&
- /* harmony default export */ var EmojiPicker_MenheraEmojivue_type_script_lang_js_ = (MenheraEmojivue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./src/components/EmojiPicker/MenheraEmoji.vue
+// CONCATENATED MODULE: ./src/components/EmojiPicker/adnmbEmoji.vue?vue&type=script&lang=js&
+ /* harmony default export */ var EmojiPicker_adnmbEmojivue_type_script_lang_js_ = (adnmbEmojivue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/EmojiPicker/adnmbEmoji.vue
 
 
 
@@ -3000,10 +3000,10 @@ var MenheraEmojivue_type_template_id_3fbbeddf_staticRenderFns = []
 
 /* normalize component */
 
-var MenheraEmoji_component = Object(componentNormalizer["a" /* default */])(
-  EmojiPicker_MenheraEmojivue_type_script_lang_js_,
-  MenheraEmojivue_type_template_id_3fbbeddf_render,
-  MenheraEmojivue_type_template_id_3fbbeddf_staticRenderFns,
+var adnmbEmoji_component = Object(componentNormalizer["a" /* default */])(
+  EmojiPicker_adnmbEmojivue_type_script_lang_js_,
+  adnmbEmojivue_type_template_id_66938a4a_render,
+  adnmbEmojivue_type_template_id_66938a4a_staticRenderFns,
   false,
   null,
   null,
@@ -3011,7 +3011,7 @@ var MenheraEmoji_component = Object(componentNormalizer["a" /* default */])(
   ,true
 )
 
-/* harmony default export */ var MenheraEmoji = (MenheraEmoji_component.exports);
+/* harmony default export */ var adnmbEmoji = (adnmbEmoji_component.exports);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3d3a0c90-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EmojiPicker/TiebaEmoji.vue?vue&type=template&id=778e3b05&
 var TiebaEmojivue_type_template_id_778e3b05_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',{attrs:{"title":_vm.data.description}},[_c('img',{attrs:{"src":_vm.tiebaSrc}})])}
 var TiebaEmojivue_type_template_id_778e3b05_staticRenderFns = []
@@ -3085,12 +3085,12 @@ var TiebaEmoji_component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var EmojiListvue_type_script_lang_js_ = ({
   name: 'EmojiList',
   components: {
-    MenheraEmoji: MenheraEmoji,
+    adnmbEmoji: adnmbEmoji,
     TiebaEmoji: TiebaEmoji
   },
   data: () => ({
     categories: [{
-      name: 'menhera',
+      name: 'adnmb',
       title: '( ﾟ∀。)'
     }, {
       name: 'tieba',
@@ -3148,8 +3148,8 @@ var TiebaEmoji_component = Object(componentNormalizer["a" /* default */])(
 
 var EmojiList_component = Object(componentNormalizer["a" /* default */])(
   EmojiPicker_EmojiListvue_type_script_lang_js_,
-  EmojiListvue_type_template_id_500fb8e4_render,
-  EmojiListvue_type_template_id_500fb8e4_staticRenderFns,
+  EmojiListvue_type_template_id_3cd0e100_render,
+  EmojiListvue_type_template_id_3cd0e100_staticRenderFns,
   false,
   null,
   null,
@@ -3195,7 +3195,7 @@ var EmojiList_component = Object(componentNormalizer["a" /* default */])(
   },
   data: () => ({
     mapEmojis: {},
-    category: 'menhera'
+    category: 'adnmb'
   }),
 
   created() {
@@ -3249,8 +3249,8 @@ var EmojiList_component = Object(componentNormalizer["a" /* default */])(
 
 var VEmojiPicker_component = Object(componentNormalizer["a" /* default */])(
   EmojiPicker_VEmojiPickervue_type_script_lang_js_,
-  VEmojiPickervue_type_template_id_6108db98_render,
-  VEmojiPickervue_type_template_id_6108db98_staticRenderFns,
+  VEmojiPickervue_type_template_id_622562f6_render,
+  VEmojiPickervue_type_template_id_622562f6_staticRenderFns,
   false,
   null,
   null,
@@ -14325,9 +14325,9 @@ class Emoji {
 
 }
 
-let menheraEmoji = [new Emoji("(｀･ω･)", "(｀･ω･)", "menhera"), new Emoji("(=ﾟωﾟ)=", "(=ﾟωﾟ)=", "menhera"), new Emoji("(つд⊂)", "(つд⊂)", "menhera"), new Emoji("(ﾟДﾟ≡ﾟДﾟ)", "(ﾟДﾟ≡ﾟДﾟ)", "menhera"), new Emoji("(＾o＾)ﾉ", "(＾o＾)ﾉ", "menhera"), new Emoji("(ﾟ∀ﾟ)", "(ﾟ∀ﾟ)", "menhera"), new Emoji("(*ﾟ∇ﾟ)", "(*ﾟ∇ﾟ)", "menhera"), new Emoji("(ﾟ3ﾟ)", "(ﾟ3ﾟ)", "menhera"), new Emoji("(・ー・)", "(・ー・)", "menhera"), new Emoji("(・∀・)", "(・∀・)", "menhera"), new Emoji("(ゝ∀･)", "(ゝ∀･)", "menhera"), new Emoji("(〃∀〃)", "(〃∀〃)", "menhera"), new Emoji("(*ﾟ∀ﾟ*)", "(*ﾟ∀ﾟ*)", "menhera"), new Emoji("(ﾟ∀。)", "(ﾟ∀。)", "menhera"), new Emoji("(`д´)", "(`д´)", "menhera"), new Emoji("(`ε´)", "(`ε´)", "menhera"), new Emoji("ﾟ∀ﾟ)ノ", "ﾟ∀ﾟ)ノ", "menhera"), new Emoji("(☉д⊙)", "(☉д⊙)", "menhera"), new Emoji("(`・´)", "(`・´)", "menhera"), new Emoji("(-д-)", "(-д-)", "menhera"), new Emoji("(´・ω・`)", "(´・ω・`)", "menhera"), new Emoji("(`・ω・´)", "(`・ω・´)", "menhera"), new Emoji("(`_っ´)", "(`_っ´)", "menhera"), new Emoji("(´ρ`)", "(´ρ`)", "menhera"), new Emoji("(ノﾟ∀ﾟ)ノ", "(ノﾟ∀ﾟ)ノ", "menhera"), new Emoji("ﾟÅﾟ)", "ﾟÅﾟ)", "menhera"), new Emoji("(`ヮ´)", "(`ヮ´)", "menhera"), new Emoji("(σﾟдﾟ)σ", "(σﾟдﾟ)σ", "menhera"), new Emoji("(σﾟ∀ﾟ)σ", "(σﾟ∀ﾟ)σ", "menhera"), new Emoji("σ`∀´)", "σ`∀´)", "menhera"), new Emoji("ﾟ∀ﾟ)σ", "ﾟ∀ﾟ)σ", "menhera"), new Emoji("|∀ﾟ", "|∀ﾟ", "menhera"), new Emoji("|ω・´)", "|ω・´)", "menhera"), new Emoji("|-`)", "|-`)", "menhera"), new Emoji("|∀`)", "|∀`)", "menhera"), new Emoji("|дﾟ)", "|дﾟ)", "menhera"), new Emoji("(´ﾟДﾟ`)", "(´ﾟДﾟ`)", "menhera"), new Emoji("(╬ﾟдﾟ)", "(╬ﾟдﾟ)", "menhera"), new Emoji("(|||ﾟдﾟ)", "(|||ﾟдﾟ)", "menhera"), new Emoji("Σ(ﾟдﾟ)", "Σ(ﾟдﾟ)", "menhera"), new Emoji("(;ﾟдﾟ)", "(;ﾟдﾟ)", "menhera"), new Emoji("(((ﾟдﾟ)))", "(((ﾟдﾟ)))", "menhera"), new Emoji("(д)ﾟﾟ", "(д)ﾟﾟ", "menhera"), new Emoji("(|||ﾟДﾟ)", "(|||ﾟДﾟ)", "menhera"), new Emoji("(;´Д`)", "(;´Д`)", "menhera"), new Emoji("(´∀`)", "(´∀`)", "menhera"), new Emoji("(*´∀`)", "(*´∀`)", "menhera"), new Emoji("(´ー`)", "(´ー`)", "menhera"), new Emoji("(・_ゝ・)", "(・_ゝ・)", "menhera"), new Emoji("(´_ゝ`)", "(´_ゝ`)", "menhera"), new Emoji("(;´д`)", "(;´д`)", "menhera"), new Emoji("･ﾟ(ﾉд`ﾟ)", "･ﾟ(ﾉд`ﾟ)", "menhera"), new Emoji("ﾟ(つд`ﾟ)", "ﾟ(つд`ﾟ)", "menhera"), new Emoji("(^ω^)", "(^ω^)", "menhera"), new Emoji("⊂彡☆))д`)", "⊂彡☆))д`)", "menhera"), new Emoji("⊂彡☆))д´)", "⊂彡☆))д´)", "menhera"), new Emoji("⊂彡☆))∀`)", "⊂彡☆))∀`)", "menhera"), new Emoji("(´∀((☆ミつ", "(´∀((☆ミつ", "menhera"), new Emoji("(oﾟωﾟo)", "(oﾟωﾟo)", "menhera"), new Emoji("(｡◕∀◕｡)", "(｡◕∀◕｡)", "menhera"), new Emoji("(￣∇￣)", "(￣∇￣)", "menhera"), new Emoji("(￣3￣)", "(￣3￣)", "menhera"), new Emoji("(*´ω`*)", "(*´ω`*)", "menhera")];
+let adnmbEmoji = [new Emoji("(｀･ω･)", "(｀･ω･)", "adnmb"), new Emoji("(=ﾟωﾟ)=", "(=ﾟωﾟ)=", "adnmb"), new Emoji("(つд⊂)", "(つд⊂)", "adnmb"), new Emoji("(ﾟДﾟ≡ﾟДﾟ)", "(ﾟДﾟ≡ﾟДﾟ)", "adnmb"), new Emoji("(＾o＾)ﾉ", "(＾o＾)ﾉ", "adnmb"), new Emoji("(ﾟ∀ﾟ)", "(ﾟ∀ﾟ)", "adnmb"), new Emoji("(*ﾟ∇ﾟ)", "(*ﾟ∇ﾟ)", "adnmb"), new Emoji("(ﾟ3ﾟ)", "(ﾟ3ﾟ)", "adnmb"), new Emoji("(・ー・)", "(・ー・)", "adnmb"), new Emoji("(・∀・)", "(・∀・)", "adnmb"), new Emoji("(ゝ∀･)", "(ゝ∀･)", "adnmb"), new Emoji("(〃∀〃)", "(〃∀〃)", "adnmb"), new Emoji("(*ﾟ∀ﾟ*)", "(*ﾟ∀ﾟ*)", "adnmb"), new Emoji("(ﾟ∀。)", "(ﾟ∀。)", "adnmb"), new Emoji("(`д´)", "(`д´)", "adnmb"), new Emoji("(`ε´)", "(`ε´)", "adnmb"), new Emoji("ﾟ∀ﾟ)ノ", "ﾟ∀ﾟ)ノ", "adnmb"), new Emoji("(☉д⊙)", "(☉д⊙)", "adnmb"), new Emoji("(`・´)", "(`・´)", "adnmb"), new Emoji("(-д-)", "(-д-)", "adnmb"), new Emoji("(´・ω・`)", "(´・ω・`)", "adnmb"), new Emoji("(`・ω・´)", "(`・ω・´)", "adnmb"), new Emoji("(`_っ´)", "(`_っ´)", "adnmb"), new Emoji("(´ρ`)", "(´ρ`)", "adnmb"), new Emoji("(ノﾟ∀ﾟ)ノ", "(ノﾟ∀ﾟ)ノ", "adnmb"), new Emoji("ﾟÅﾟ)", "ﾟÅﾟ)", "adnmb"), new Emoji("(`ヮ´)", "(`ヮ´)", "adnmb"), new Emoji("(σﾟдﾟ)σ", "(σﾟдﾟ)σ", "adnmb"), new Emoji("(σﾟ∀ﾟ)σ", "(σﾟ∀ﾟ)σ", "adnmb"), new Emoji("σ`∀´)", "σ`∀´)", "adnmb"), new Emoji("ﾟ∀ﾟ)σ", "ﾟ∀ﾟ)σ", "adnmb"), new Emoji("|∀ﾟ", "|∀ﾟ", "adnmb"), new Emoji("|ω・´)", "|ω・´)", "adnmb"), new Emoji("|-`)", "|-`)", "adnmb"), new Emoji("|∀`)", "|∀`)", "adnmb"), new Emoji("|дﾟ)", "|дﾟ)", "adnmb"), new Emoji("(´ﾟДﾟ`)", "(´ﾟДﾟ`)", "adnmb"), new Emoji("(╬ﾟдﾟ)", "(╬ﾟдﾟ)", "adnmb"), new Emoji("(|||ﾟдﾟ)", "(|||ﾟдﾟ)", "adnmb"), new Emoji("Σ(ﾟдﾟ)", "Σ(ﾟдﾟ)", "adnmb"), new Emoji("(;ﾟдﾟ)", "(;ﾟдﾟ)", "adnmb"), new Emoji("(((ﾟдﾟ)))", "(((ﾟдﾟ)))", "adnmb"), new Emoji("(д)ﾟﾟ", "(д)ﾟﾟ", "adnmb"), new Emoji("(|||ﾟДﾟ)", "(|||ﾟДﾟ)", "adnmb"), new Emoji("(;´Д`)", "(;´Д`)", "adnmb"), new Emoji("(´∀`)", "(´∀`)", "adnmb"), new Emoji("(*´∀`)", "(*´∀`)", "adnmb"), new Emoji("(´ー`)", "(´ー`)", "adnmb"), new Emoji("(・_ゝ・)", "(・_ゝ・)", "adnmb"), new Emoji("(´_ゝ`)", "(´_ゝ`)", "adnmb"), new Emoji("(;´д`)", "(;´д`)", "adnmb"), new Emoji("･ﾟ(ﾉд`ﾟ)", "･ﾟ(ﾉд`ﾟ)", "adnmb"), new Emoji("ﾟ(つд`ﾟ)", "ﾟ(つд`ﾟ)", "adnmb"), new Emoji("(^ω^)", "(^ω^)", "adnmb"), new Emoji("⊂彡☆))д`)", "⊂彡☆))д`)", "adnmb"), new Emoji("⊂彡☆))д´)", "⊂彡☆))д´)", "adnmb"), new Emoji("⊂彡☆))∀`)", "⊂彡☆))∀`)", "adnmb"), new Emoji("(´∀((☆ミつ", "(´∀((☆ミつ", "adnmb"), new Emoji("(oﾟωﾟo)", "(oﾟωﾟo)", "adnmb"), new Emoji("(｡◕∀◕｡)", "(｡◕∀◕｡)", "adnmb"), new Emoji("(￣∇￣)", "(￣∇￣)", "adnmb"), new Emoji("(￣3￣)", "(￣3￣)", "adnmb"), new Emoji("(*´ω`*)", "(*´ω`*)", "adnmb")];
 let tiebaEmoji = [new Emoji("tongue", "吐舌", "tieba"), new Emoji("theblackline", "尴尬", "tieba"), new Emoji("tear", "大哭", "tieba"), new Emoji("surprised", "惊哭", "tieba"), new Emoji("surprised2", "惊讶", "tieba"), new Emoji("spray", "喷", "tieba"), new Emoji("spit", "呕吐", "tieba"), new Emoji("smilingeyes", "笑眼", "tieba"), new Emoji("shui", "睡", "tieba"), new Emoji("shame", "羞辱", "tieba"), new Emoji("se", "色", "tieba"), new Emoji("rmb", "钱", "tieba"), new Emoji("reluctantly", "勉强", "tieba"), new Emoji("rbq", "观望", "tieba"), new Emoji("niconiconit", "niconiconit", "tieba"), new Emoji("niconiconi", "niconiconi", "tieba"), new Emoji("niconiconi_t", "niconiconi-t", "tieba"), new Emoji("naive", "naive", "tieba"), new Emoji("ku", "ku", "tieba"), new Emoji("huaji", "huaji", "tieba"), new Emoji("hu", "hu", "tieba"), new Emoji("han", "han", "tieba"), new Emoji("haha", "haha", "tieba"), new Emoji("good", "good", "tieba"), new Emoji("doubt", "doubt", "tieba"), new Emoji("britan", "britan", "tieba"), new Emoji("bbd", "bbd", "tieba"), new Emoji("awesome", "awesome", "tieba"), new Emoji("anger", "anger", "tieba"), new Emoji("aa", "aa", "tieba"), new Emoji("Happy", "Happy", "tieba"), new Emoji("Grievance", "Grievance", "tieba")];
-/* harmony default export */ __webpack_exports__["default"] = ([...menheraEmoji, ...tiebaEmoji]);
+/* harmony default export */ __webpack_exports__["default"] = ([...adnmbEmoji, ...tiebaEmoji]);
 
 /***/ }),
 
